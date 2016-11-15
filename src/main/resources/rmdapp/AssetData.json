@@ -14,6 +14,69 @@
 		"tagType": "Continuous",
 		"defaultTag": []
 	}, {
+                "uri": "/tag/crank-frame-compressionratio-2001",
+                "name": "crank-frame-compressionratio-2001",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
+                "uri": "/tag/crank-frame-compressionratio-2002",
+                "name": "crank-frame-compressionratio-2002",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
+                "uri": "/tag/crank-frame-compressionratio-2003",
+                "name": "crank-frame-compressionratio-2003",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
+                "uri": "/tag/crank-frame-compressionratio-2004",
+                "name": "crank-frame-compressionratio-2004",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
+                "uri": "/tag/crank-frame-compressionratio-2005",
+                "name": "crank-frame-compressionratio-2005",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
+                "uri": "/tag/crank-frame-compressionratio-2006",
+                "name": "crank-frame-compressionratio-2006",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
+                "uri": "/tag/crank-frame-compressionratio-2007",
+                "name": "crank-frame-compressionratio-2007",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
+                "uri": "/tag/crank-frame-compressionratio-2008",
+                "name": "crank-frame-compressionratio-2008",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
+                "uri": "/tag/crank-frame-compressionratio-2009",
+                "name": "crank-frame-compressionratio-2009",
+                "description": "Crank Frame Compression Ratio",
+                "dataType": "number",
+                "tagType": "Continuous",
+                "defaultTag": []
+        }, {
 		"uri": "/tag/crank-frame-dischargepressure",
 		"name": "crank-frame-dischargepressure",
 		"description": "Crank Frame Discharge Pressure",
@@ -52,6 +115,78 @@
 		"dataType": "number",
 		"tagType": "Continuous",
 		"uom": "F",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2001",
+		"name": "crank-frame-velocity-2001",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2002",
+		"name": "crank-frame-velocity-2002",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2003",
+		"name": "crank-frame-velocity-2003",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2004",
+		"name": "crank-frame-velocity-2004",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2005",
+		"name": "crank-frame-velocity-2005",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2006",
+		"name": "crank-frame-velocity-2006",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2007",
+		"name": "crank-frame-velocity-2007",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2008",
+		"name": "crank-frame-velocity-2008",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
+		"defaultTag": []
+	}, {
+		"uri": "/tag/crank-frame-velocity-2009",
+		"name": "crank-frame-velocity-2009",
+		"description": "Crank Frame Velocity",
+		"dataType": "number",
+		"tagType": "Continuous",
+		"uom": "m/s",
 		"defaultTag": []
 	}, {
 		"uri": "/tag/crank-frame-velocity",
@@ -270,10 +405,1900 @@
 		}
 	}, {
 		"complexType": "Asset",
+		"uri": "/asset/compressor-2001",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2001",
+		"description": "Bently Compressor 2001",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2001": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2001",
+				"sourceTagId": "Compressor-2001:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2001": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2001",
+				"sourceTagId": "Compressor-2001:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2001.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2001": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2001",
+				"sourceTagId": "Compressor-2001:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2001": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2001",
+				"sourceTagId": "Compressor-2001:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2001": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2001",
+				"sourceTagId": "Compressor-2001:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2001": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2001",
+				"sourceTagId": "Compressor-2001:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:Velocity"
+				}
+			},
+			"crank-frame-temperature-2001": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2001",
+				"sourceTagId": "Compressor-2001:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2001"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2001",
+					"crank-frame-compressionratio-2001"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2001.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2001.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2002",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2002",
+		"description": "Bently Compressor 2002",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2002": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2002",
+				"sourceTagId": "Compressor-2002:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2002": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2002",
+				"sourceTagId": "Compressor-2002:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2002.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2002": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2002",
+				"sourceTagId": "Compressor-2002:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2002": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2002",
+				"sourceTagId": "Compressor-2002:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2002": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2002",
+				"sourceTagId": "Compressor-2002:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2002": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2002",
+				"sourceTagId": "Compressor-2002:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:Velocity"
+				}
+			},
+			"crank-frame-temperature-2002": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2002",
+				"sourceTagId": "Compressor-2002:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2002"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2002",
+					"crank-frame-compressionratio-2002"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2002.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2002.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2003",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2003",
+		"description": "Bently Compressor 2003",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2003": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2003",
+				"sourceTagId": "Compressor-2003:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2003": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2003",
+				"sourceTagId": "Compressor-2003:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2003.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2003": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2003",
+				"sourceTagId": "Compressor-2003:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2003": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2003",
+				"sourceTagId": "Compressor-2003:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2003": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2003",
+				"sourceTagId": "Compressor-2003:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2003": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2003",
+				"sourceTagId": "Compressor-2003:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:Velocity"
+				}
+			},
+			"crank-frame-temperature-2003": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2003",
+				"sourceTagId": "Compressor-2003:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2003"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2003",
+					"crank-frame-compressionratio-2003"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2003.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2003.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2004",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2004",
+		"description": "Bently Compressor 2004",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2004": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2004",
+				"sourceTagId": "Compressor-2004:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2004": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2004",
+				"sourceTagId": "Compressor-2004:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2004.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2004": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2004",
+				"sourceTagId": "Compressor-2004:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2004": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2004",
+				"sourceTagId": "Compressor-2004:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2004": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2004",
+				"sourceTagId": "Compressor-2004:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2004": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2004",
+				"sourceTagId": "Compressor-2004:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:Velocity"
+				}
+			},
+			"crank-frame-temperature-2004": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2004",
+				"sourceTagId": "Compressor-2004:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2004"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2004",
+					"crank-frame-compressionratio-2004"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2004.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2004.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2005",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2005",
+		"description": "Bently Compressor 2005",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2005": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2005",
+				"sourceTagId": "Compressor-2005:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2005": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2005",
+				"sourceTagId": "Compressor-2005:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2005.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2005": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2005",
+				"sourceTagId": "Compressor-2005:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2005": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2005",
+				"sourceTagId": "Compressor-2005:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2005": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2005",
+				"sourceTagId": "Compressor-2005:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2005": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2005",
+				"sourceTagId": "Compressor-2005:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:Velocity"
+				}
+			},
+			"crank-frame-temperature-2005": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2005",
+				"sourceTagId": "Compressor-2005:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2005"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2005",
+					"crank-frame-compressionratio-2005"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2005.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2005.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2006",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2006",
+		"description": "Bently Compressor 2006",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2006": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2006",
+				"sourceTagId": "Compressor-2006:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2006": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2006",
+				"sourceTagId": "Compressor-2006:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2006.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2006": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2006",
+				"sourceTagId": "Compressor-2006:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2006": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2006",
+				"sourceTagId": "Compressor-2006:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2006": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2006",
+				"sourceTagId": "Compressor-2006:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2006": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2006",
+				"sourceTagId": "Compressor-2006:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:Velocity"
+				}
+			},
+			"crank-frame-temperature-2006": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2006",
+				"sourceTagId": "Compressor-2006:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2006"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2006",
+					"crank-frame-compressionratio-2006"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2006.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2006.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2007",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2007",
+		"description": "Bently Compressor 2007",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2007": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2007",
+				"sourceTagId": "Compressor-2007:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2007": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2007",
+				"sourceTagId": "Compressor-2007:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2007.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2007": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2007",
+				"sourceTagId": "Compressor-2007:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2007": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2007",
+				"sourceTagId": "Compressor-2007:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2007": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2007",
+				"sourceTagId": "Compressor-2007:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2007": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2007",
+				"sourceTagId": "Compressor-2007:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:Velocity"
+				}
+			},
+			"crank-frame-temperature-2007": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2007",
+				"sourceTagId": "Compressor-2007:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2007"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2007",
+					"crank-frame-compressionratio-2007"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2007.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2007.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2008",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2008",
+		"description": "Bently Compressor 2008",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2008": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2008",
+				"sourceTagId": "Compressor-2008:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2008": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2008",
+				"sourceTagId": "Compressor-2008:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2008.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2008": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2008",
+				"sourceTagId": "Compressor-2008:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2008": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2008",
+				"sourceTagId": "Compressor-2008:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2008": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2008",
+				"sourceTagId": "Compressor-2008:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2008": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2008",
+				"sourceTagId": "Compressor-2008:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:Velocity"
+				}
+			},
+			"crank-frame-temperature-2008": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2008",
+				"sourceTagId": "Compressor-2008:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2008"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2008",
+					"crank-frame-compressionratio-2008"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2008.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2008.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2009",
+		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
+		"assetId": "compressor-2009",
+		"description": "Bently Compressor 2009",
+		"group": "/group/plant-richmond-refinery",
+		"parentUri": "/asset/compressor-1234",
+		"assetTag": {
+			"crank-frame-compressionratio-2009": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-compressionratio-2009",
+				"sourceTagId": "Compressor-2009:CompressionRatio",
+				"outputMinimum": 2.5,
+				"outputMaximum": 3,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:CompressionRatio",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-123",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:CompressionRatio"
+				}
+			},
+			"crank-frame-dischargepressure-2009": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-dischargepressure-2009",
+				"sourceTagId": "Compressor-2009:DischargePressure",
+				"outputMinimum": 1,
+				"outputMaximum": 22,
+				"hiAlarmThreshold": 20,
+				"loAlarmThreshold": 10,
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2009.tag-extensions.crank-frame-discharge-pressure"
+				}
+			},
+			"crank-frame-suctionpressure-2009": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-suctionpressure-2009",
+				"sourceTagId": "Compressor-2009:SuctionPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0.21,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:SuctionPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:SuctionPressure"
+				}
+			},
+			"crank-frame-maxpressure-2009": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-maxpressure-2009",
+				"sourceTagId": "Compressor-2009:MaximumPressure",
+				"outputMinimum": 22,
+				"outputMaximum": 26,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:MaximumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:MaximumPressure"
+				}
+			},
+			"crank-frame-minpressure-2009": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-minpressure-2009",
+				"sourceTagId": "Compressor-2009:MinimumPressure",
+				"outputMinimum": 0,
+				"outputMaximum": 0,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:MinimumPressure",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:MinimumPressure"
+				}
+			},
+			"crank-frame-velocity-2009": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-velocity-2009",
+				"sourceTagId": "Compressor-2009:Velocity",
+				"outputMinimum": 0,
+				"outputMaximum": 0.07,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:Velocity",
+					"isKpi": "true",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:Velocity"
+				}
+			},
+			"crank-frame-temperature-2009": {
+				"complexType": "AssetTag",
+				"tagUri": "/tag/crank-frame-temperature-2009",
+				"sourceTagId": "Compressor-2009:Temperature",
+				"outputMinimum": 65,
+				"outputMaximum": 80,
+				"hiAlarmThreshold": 0,
+				"loAlarmThreshold": 0,
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:Temperature",
+					"fieldUri": "asset/adh-field-456",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:Temperature"
+				}
+			}
+		},
+		"attributes": {
+			"machineControllerId": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"/asset/Bently.Nevada.3500.Rack2009"
+				]
+			},
+			"summaryTag": {
+				"complexType": "Attribute",
+				"type": "string",
+				"enumeration": [],
+				"value": [
+					"crank-frame-velocity-2009",
+					"crank-frame-compressionratio-2009"
+				]
+			}
+		}
+	}, {
+		"complexType": "Asset",
+		"uri": "/asset/compressor-2009.tag-extensions.crank-frame-discharge-pressure",
+		"classificationUri": "/classification/Asset-Tag-Extensions",
+		"assetId": "/asset/compressor-2009.tag-extensions.crank-frame-discharge-pressure",
+		"attributes": {
+			"alertStatus": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"false"
+				]
+			},
+			"alertType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"Analytic"
+				]
+			},
+			"alertLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertLevelValue": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"alertTime": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdColor": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdDirection": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThresholdLevel": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"deltaThreshold": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"sourceType": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": [
+					"PredixTimeseries"
+				]
+			},
+			"fieldSourceUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			},
+			"fieldUri": {
+				"complexType": "Attribute",
+				"enumeration": [],
+				"value": []
+			}
+		}
+	}, {
+		"complexType": "Asset",
 		"uri": "/asset/compressor-2015",
 		"classificationUri": "/classification/GE_COMPRESSOR_CYLINDER",
 		"assetId": "compressor-2015",
-		"description": "Bently Compressor",
+		"description": "Bently Compressor 2015",
 		"group": "/group/plant-richmond-refinery",
 		"parentUri": "/asset/compressor-1234",
 		"assetTag": {
@@ -515,6 +2540,267 @@
 				"isManual": false,
 				"outputMinimum": 72,
 				"outputMaximum": 100
+			},
+			"crank-frame-dischargepressure-2001": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2001:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2001.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2001": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2001:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2001:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2001:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure-2002": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2002:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2002.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2002": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2002:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2002:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2002:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure-2003": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2003:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2003.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2003": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2003:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2003:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2003:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure-2004": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2004:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2004.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2004": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2004:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2004:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2004:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure-2005": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2005:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2005.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2005": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2005:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2005:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2005:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure-2006": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2006:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2006.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2006": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2006:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2006:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2006:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure-2007": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2007:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2007.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2007": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2007:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2007:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2007:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure-2008": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2008:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2008.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2008": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2008:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2008:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2008:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
+			},
+			"crank-frame-dischargepressure-2009": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-dischargepressure",
+				"sourceTagId": "Compressor-2009:DischargePressure",
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:DischargePressure",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:DischargePressure",
+					"tagExtensionsUri": "/asset/compressor-2009.tag-extensions.crank-frame-discharge-pressure"
+				},
+				"isManual": false,
+				"outputMinimum": 0,
+				"outputMaximum": 23
+			},
+			"crank-frame-compressionratio-2009": {
+				"complexType": "AssetTag",
+				"uri": "/tag/crank-frame-compressionratio",
+				"sourceTagId": "Compressor-2009:CompressionRatio",
+				"tagDatasource": {
+					"nodeName": "Compressor-2009:CompressionRatio",
+					"isKpi": "true",
+					"controllerUri": "/sample/machine/controller",
+					"machineUri": "/Compressor-2009:CompressionRatio"
+				},
+				"isManual": false,
+				"outputMinimum": 2.5,
+				"outputMaximum": 3
 			},
 			"crank-frame-dischargepressure": {
 				"complexType": "AssetTag",
